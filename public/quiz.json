@@ -1,0 +1,73 @@
+[
+    {
+      "quiz_id": 1,
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Lisbon"],
+      "correct_answer": "Paris",
+      "description": "This quiz tests your knowledge of world capitals."
+    },
+    {
+      "quiz_id": 2,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "correct_answer": "Mars",
+      "description": "This quiz is about the planets in our solar system."
+    },
+    {
+      "quiz_id": 3,
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correct_answer": "Pacific Ocean",
+      "description": "This quiz covers facts about Earth's oceans."
+    },
+    {
+      "quiz_id": 4,
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": ["Harper Lee", "Jane Austen", "Mark Twain", "J.K. Rowling"],
+      "correct_answer": "Harper Lee",
+      "description": "This quiz tests your knowledge of classic literature."
+    },
+    {
+      "quiz_id": 5,
+      "question": "What is the smallest prime number?",
+      "options": ["1", "2", "3", "5"],
+      "correct_answer": "2",
+      "description": "This quiz is about basic mathematics and prime numbers."
+    },
+    {
+      "quiz_id": 6,
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Gold", "Osmium", "Oganesson"],
+      "correct_answer": "Oxygen",
+      "description": "This quiz covers elements from the periodic table."
+    },
+    {
+      "quiz_id": 7,
+      "question": "What is the tallest mountain in the world?",
+      "options": ["K2", "Kangchenjunga", "Lhotse", "Mount Everest"],
+      "correct_answer": "Mount Everest",
+      "description": "This quiz is about geographical features."
+    },
+    {
+      "quiz_id": 8,
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+      "correct_answer": "Leonardo da Vinci",
+      "description": "This quiz tests your knowledge of famous artists."
+    },
+    {
+      "quiz_id": 9,
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "South Korea", "Thailand", "Japan"],
+      "correct_answer": "Japan",
+      "description": "This quiz is about countries and their nicknames."
+    },
+    {
+      "quiz_id": 10,
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Graphite"],
+      "correct_answer": "Diamond",
+      "description": "This quiz covers facts about natural materials."
+    }
+  ]
+  
