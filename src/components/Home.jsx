@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaGreaterThan } from "react-icons/fa6";
+import {useNavigate} from "react-router-dom";
+import Loading from "./Loading"
 
 const Home = () => {
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate(); //React Hook for redirection...
+
+  const handleStartQuiz = () => {
+    setLoading(true);
+    setTimeout(()=>{
+      navigate("./quiz");
+      setLoading(false);
+    },2000);
+  }
   return (
     <section className="lg:w-9/12 md:w-[90%] mt-12 flex flex-col md:flex-row-reverse justify-between items-center mx-auto px-4">
-
+      {loading && <Loading/>}
       {/* Right Side  */}
       <div className="md:w-1/2 w-full">
         <img src="./quizBanner.png" alt="quiz image" className="w-full mx-auto" />
@@ -22,7 +34,8 @@ const Home = () => {
           We help you prepare for exams ans quizes
         </p>
         <div className="text-lg font-medium sm:space-x-5 flex flex-col sm:flex-row">
-          <button className="bg-yellow-400 text-white px-6 py-2 rounded ">
+          <button className="bg-yellow-400 text-white px-6 py-2 rounded "
+            onClick={handleStartQuiz}>
              Start Quiz
            </button>
           <button className="inline-flex items-center px-6 py-2 border-[2px] border-slate-200 rounded text-primary

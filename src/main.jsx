@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Home from './components/Home'
+import Quiz from './components/Quiz'
 import './index.css'
 
 import {
@@ -15,7 +16,12 @@ const router = createBrowserRouter([{
   children: [{ //All this children are shown in outlet in App.js
     path: "/",
     element: <Home/>
-  }]
+    },
+    {
+      path: "/quiz",
+      element: <Quiz/>
+    }
+  ]
 }])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
